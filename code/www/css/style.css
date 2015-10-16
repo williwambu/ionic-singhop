@@ -1,8 +1,15 @@
 /* Splash page stylings */
-.splash-page {
-  background:url(/img/splash-bkg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+/*.scroll-content{
+    background-image: url(/img/);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+}*/
+.splash-page{
+    background: url(../img/splash-bkg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
 }
 
 .splash-page .card {
